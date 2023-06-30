@@ -1,0 +1,33 @@
+.popup{
+    background-image: url(./img/bg.jpg);
+    width: 450px;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins",sans-serif;
+    display: none;
+    text-align: center;
+}
+.popup button{
+    display: block;
+    margin:  0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #ffd900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+.popup p{
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+    color: #ffd900;
+    font-weight: 600;
+    box-shadow: 0 25px 50px rgb(0, 0, 0);
+}
